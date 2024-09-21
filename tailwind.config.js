@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./src/**/*.{html,js,svelte,ts}",
     "./index.html", // Mengawasi file index.html
-    "./creator.html", // Mengawasi file creator.html di dalam folder views
-  ],
+    "./creator.html", // Mengawasi file creator.html di dalam folder views
+  ],
+
   theme: {
     extend: {
       colors: {
